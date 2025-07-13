@@ -1,12 +1,10 @@
+import CustomText from "@/app/components/CustomText/CustomText";
 import Logo from "@/assets/images/logo.png";
 import React, { useEffect, useRef } from "react";
 import { Animated, Image, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import CustomText from "@/app/componets/CustomText/CustomText";
 
 export default function Index() {
-
-
   const fadeAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -25,7 +23,6 @@ export default function Index() {
       ])
     ).start();
   }, [fadeAnim]);
-
 
   return (
     <SafeAreaView style={styles.container}>

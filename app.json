@@ -4,7 +4,7 @@
     "slug": "nectar",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo.png",
+    "icon": "./assets/images/logo-Icon.png",
     "scheme": "nectar",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo.png",
+        "foregroundImage": "./assets/images/logo-Icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
